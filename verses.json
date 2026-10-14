@@ -1,0 +1,179 @@
+{
+  "translation": "KJV",
+  "about": "Code the Word verse map. Each category matches a kind of code. 'starts_with' matches the first word of the line (structure); 'keywords' match words inside function/class names. Categories are checked top to bottom, first match wins. Add verses freely — they rotate.",
+  "categories": [
+    {
+      "name": "error handling",
+      "starts_with": ["try", "catch", "except", "rescue"],
+      "keywords": ["error", "err", "fail", "failure", "exception", "recover", "retry", "fallback", "rescue"],
+      "verses": [
+        {"ref": "1 John 1:9", "text": "If we confess our sins, he is faithful and just to forgive us our sins, and to cleanse us from all unrighteousness.", "note": "Errors caught and handled, not hidden. Confession is the catch block of the soul."},
+        {"ref": "Psalm 103:12", "text": "As far as the east is from the west, so far hath he removed our transgressions from us.", "note": "What is caught here is dealt with, not carried forward."}
+      ]
+    },
+    {
+      "name": "loops",
+      "starts_with": ["for", "while", "do", "loop"],
+      "keywords": ["loop", "iterate", "repeat", "each", "poll"],
+      "verses": [
+        {"ref": "Galatians 6:9", "text": "And let us not be weary in well doing: for in due season we shall reap, if we faint not.", "note": "The same faithful work, again and again, until the harvest."}
+      ]
+    },
+    {
+      "name": "beginnings",
+      "starts_with": [],
+      "keywords": ["init", "constructor", "setup", "main", "start", "bootstrap", "create", "begin", "launch", "boot"],
+      "verses": [
+        {"ref": "Genesis 1:1", "text": "In the beginning God created the heaven and the earth.", "note": "Everything that runs had a first line."},
+        {"ref": "John 1:1", "text": "In the beginning was the Word, and the Word was with God, and the Word was God.", "note": "Before the code, the Word."}
+      ]
+    },
+    {
+      "name": "endings",
+      "starts_with": [],
+      "keywords": ["close", "shutdown", "exit", "end", "finish", "teardown", "dispose", "destroy", "stop", "finalize"],
+      "verses": [
+        {"ref": "2 Timothy 4:7", "text": "I have fought a good fight, I have finished my course, I have kept the faith:", "note": "Finish clean. Release what you held."}
+      ]
+    },
+    {
+      "name": "security",
+      "starts_with": [],
+      "keywords": ["auth", "login", "logout", "password", "token", "verify", "permission", "guard", "secure", "session", "signin", "credential"],
+      "verses": [
+        {"ref": "John 10:9", "text": "I am the door: by me if any man enter in, he shall be saved, and shall go in and out, and find pasture.", "note": "There is one true door. Guard this one well."}
+      ]
+    },
+    {
+      "name": "testing and validation",
+      "starts_with": [],
+      "keywords": ["test", "validate", "check", "assert", "is", "has", "can", "should", "verify", "sanitize", "lint"],
+      "verses": [
+        {"ref": "1 Thessalonians 5:21", "text": "Prove all things; hold fast that which is good.", "note": "Test everything. Keep what holds."}
+      ]
+    },
+    {
+      "name": "searching",
+      "starts_with": [],
+      "keywords": ["search", "find", "query", "lookup", "seek", "filter", "match", "get", "select", "locate"],
+      "verses": [
+        {"ref": "Matthew 7:7", "text": "Ask, and it shall be given you; seek, and ye shall find; knock, and it shall be opened unto you:", "note": "Every query is an asking."}
+      ]
+    },
+    {
+      "name": "reading and loading",
+      "starts_with": [],
+      "keywords": ["read", "load", "parse", "import", "open", "decode", "deserialize", "scan"],
+      "verses": [
+        {"ref": "Psalm 119:105", "text": "Thy word is a lamp unto my feet, and a light unto my path.", "note": "Reading the input lights the way for everything after."}
+      ]
+    },
+    {
+      "name": "memory and storage",
+      "starts_with": [],
+      "keywords": ["save", "store", "persist", "cache", "memo", "remember", "write", "commit", "backup", "db", "database"],
+      "verses": [
+        {"ref": "Psalm 119:11", "text": "Thy word have I hid in mine heart, that I might not sin against thee.", "note": "What is stored well is there when it is needed."},
+        {"ref": "Matthew 6:20", "text": "But lay up for yourselves treasures in heaven, where neither moth nor rust doth corrupt, and where thieves do not break through nor steal:", "note": "Store what lasts."}
+      ]
+    },
+    {
+      "name": "removing",
+      "starts_with": [],
+      "keywords": ["delete", "remove", "clear", "purge", "drop", "clean", "cleanup", "reset", "prune", "trim"],
+      "verses": [
+        {"ref": "Psalm 103:12", "text": "As far as the east is from the west, so far hath he removed our transgressions from us.", "note": "Removed completely, not just hidden."}
+      ]
+    },
+    {
+      "name": "changing",
+      "starts_with": [],
+      "keywords": ["update", "transform", "convert", "refactor", "migrate", "change", "set", "edit", "patch", "modify", "map", "format", "normalize"],
+      "verses": [
+        {"ref": "Romans 12:2", "text": "And be not conformed to this world: but be ye transformed by the renewing of your mind, that ye may prove what is that good, and acceptable, and perfect, will of God.", "note": "Input goes in one shape and comes out renewed."}
+      ]
+    },
+    {
+      "name": "sending",
+      "starts_with": [],
+      "keywords": ["send", "emit", "publish", "broadcast", "post", "notify", "dispatch", "share", "email", "message", "push"],
+      "verses": [
+        {"ref": "Mark 16:15", "text": "And he said unto them, Go ye into all the world, and preach the gospel to every creature.", "note": "Every message sent out is a small going-forth."},
+        {"ref": "Isaiah 55:11", "text": "So shall my word be that goeth forth out of my mouth: it shall not return unto me void, but it shall accomplish that which I please, and it shall prosper in the thing whereto I sent it.", "note": "What is sent with purpose accomplishes it."}
+      ]
+    },
+    {
+      "name": "connecting",
+      "starts_with": [],
+      "keywords": ["connect", "fetch", "request", "api", "http", "socket", "client", "server", "listen", "handle", "handler", "route", "endpoint"],
+      "verses": [
+        {"ref": "Revelation 3:20", "text": "Behold, I stand at the door, and knock: if any man hear my voice, and open the door, I will come in to him, and will sup with him, and he with me.", "note": "A request knocks. Someone has to answer."}
+      ]
+    },
+    {
+      "name": "waiting",
+      "starts_with": ["await"],
+      "keywords": ["wait", "async", "await", "sleep", "delay", "timeout", "schedule", "defer", "queue", "pending"],
+      "verses": [
+        {"ref": "Isaiah 40:31", "text": "But they that wait upon the LORD shall renew their strength; they shall mount up with wings as eagles; they shall run, and not be weary; and they shall walk, and not faint.", "note": "Waiting is not idle. It is renewal."}
+      ]
+    },
+    {
+      "name": "displaying",
+      "starts_with": [],
+      "keywords": ["render", "display", "show", "draw", "view", "print", "paint", "ui", "page", "component", "screen"],
+      "verses": [
+        {"ref": "Matthew 5:16", "text": "Let your light so shine before men, that they may see your good works, and glorify your Father which is in heaven.", "note": "What is rendered here is seen by others."}
+      ]
+    },
+    {
+      "name": "counting",
+      "starts_with": [],
+      "keywords": ["count", "sum", "total", "calculate", "calc", "compute", "average", "measure", "score", "math", "number"],
+      "verses": [
+        {"ref": "Psalm 90:12", "text": "So teach us to number our days, that we may apply our hearts unto wisdom.", "note": "Count carefully. The numbers mean something."}
+      ]
+    },
+    {
+      "name": "joining",
+      "starts_with": [],
+      "keywords": ["merge", "join", "combine", "concat", "link", "bind", "attach", "union", "sync", "group"],
+      "verses": [
+        {"ref": "Ecclesiastes 4:12", "text": "And if one prevail against him, two shall withstand him; and a threefold cord is not quickly broken.", "note": "Joined together, stronger."}
+      ]
+    },
+    {
+      "name": "logging",
+      "starts_with": [],
+      "keywords": ["log", "logger", "record", "trace", "debug", "audit", "journal", "history"],
+      "verses": [
+        {"ref": "Habakkuk 2:2", "text": "And the LORD answered me, and said, Write the vision, and make it plain upon tables, that he may run that readeth it.", "note": "Write it plainly so the one who comes after can run with it."}
+      ]
+    },
+    {
+      "name": "returning",
+      "starts_with": ["return"],
+      "keywords": ["return", "respond", "response", "reply", "result", "output", "yield"],
+      "verses": [
+        {"ref": "Isaiah 55:11", "text": "So shall my word be that goeth forth out of my mouth: it shall not return unto me void, but it shall accomplish that which I please, and it shall prosper in the thing whereto I sent it.", "note": "Nothing returns void."}
+      ]
+    },
+    {
+      "name": "structure",
+      "starts_with": ["class", "struct", "interface", "trait", "impl", "enum", "type", "module"],
+      "keywords": [],
+      "verses": [
+        {"ref": "1 Corinthians 12:12", "text": "For as the body is one, and hath many members, and all the members of that one body, being many, are one body: so also is Christ.", "note": "Many members, one body. Every method has its part."}
+      ]
+    }
+  ],
+  "fallback": [
+    {"ref": "John 1:1", "text": "In the beginning was the Word, and the Word was with God, and the Word was God.", "note": "Before the code, the Word."},
+    {"ref": "Proverbs 3:5", "text": "Trust in the LORD with all thine heart; and lean not unto thine own understanding.", "note": ""},
+    {"ref": "John 3:16", "text": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.", "note": ""},
+    {"ref": "Micah 6:8", "text": "He hath shewed thee, O man, what is good; and what doth the LORD require of thee, but to do justly, and to love mercy, and to walk humbly with thy God?", "note": ""},
+    {"ref": "Colossians 3:23", "text": "And whatsoever ye do, do it heartily, as to the Lord, and not unto men;", "note": "Write every line as if for Him."},
+    {"ref": "Philippians 4:13", "text": "I can do all things through Christ which strengtheneth me.", "note": ""},
+    {"ref": "Proverbs 16:3", "text": "Commit thy works unto the LORD, and thy thoughts shall be established.", "note": "Commit your work."}
+  ]
+}
