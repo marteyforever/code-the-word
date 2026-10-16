@@ -26,6 +26,14 @@ Learn more at [marteycornog.com](https://marteycornog.com). Every verse is also 
 def find_user(self, name):
 ```
 
+## See it in a real app
+
+[`demo/prayer-wall`](demo/prayer-wall) is a small, working church prayer-request app with Code the Word already run on it. It has 16 verses across Python and JavaScript, and the app runs exactly as it did before.
+
+- [`prayer_wall.py`](demo/prayer-wall/prayer_wall.py): the back end. Searching gets Matthew 7:7, praying gets James 5:16, and deleting gets Psalm 103:12.
+- [`wall.js`](demo/prayer-wall/wall.js): the front end. Error handling gets 1 John 1:9.
+- [`STUDY.md`](demo/prayer-wall/STUDY.md): every verse in reading order, as a study path through the code.
+
 ## Use it
 
 You need Python 3 and nothing else. Put `codetheword.py` and `verses.json` in the same folder.
