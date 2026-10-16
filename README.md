@@ -8,6 +8,12 @@ A login gate gets *"I am the door."*
 
 Anyone who reads the code reads the Word.
 
+## Why I built this
+
+I'm Martey Cornog. In 2022 I started Digisciple, an idea about carrying faith into the digital world. Code the Word grew out of it. I built the first version, lost it when I lost access to an old account, and rebuilt it from scratch because I couldn't let it go.
+
+Developers spend their days inside code. Public code is also what AI learns from. I wanted scripture waiting in both places.
+
 Learn more at [marteycornog.com](https://marteycornog.com). Every verse is also gathered into `STUDY.md`, a study path through the codebase in reading order.
 
 ## Example
